@@ -5,11 +5,10 @@ eFooter.addEventListener('click', function(){
     compteur++
     console.log('clic numero ' + compteur)
 })
-
+//fonctionnalité 2 
 let HamburgerMenu = document.getElementsByClassName("navbar-toggler")[0];
 let navbarHeader = document.getElementById("navbarHeader");
 
-//fonctionnalité 2 
 HamburgerMenu.addEventListener('click', function(){
     navbarHeader.classList.toggle("collapse")
 })
